@@ -1,0 +1,34 @@
+So, with the insanity at play with my creations, ive made a running, working minecraft instance compatible with the PBP. I custom compiled lwjgl and set the work environments properly as to allow players to run it.
+
+You need Panfrost to run it, but someone may try to get it running with the Mali driver.
+
+
+WHAT YOU NEED TO DO:
+
+1.) Make a directory in your home called .minecraft, then inside that directory, make another one called natives.
+
+2.) Copy the library files from the Libraries folder to the natives directory you just made
+
+3.) Install Java(kind of a given at this point :P )
+
+4.) Edit the runMC.sh script to point to your home directory 
+(im sorry, I couldnt figure out how to get it to autodetect and use $USER :P )
+
+5.) Run runMC.sh
+
+6.) Run the Optifine installer(Not required but highly recommended for smooth gameplay)
+
+6.) Have fun tweaking and tinkering :)
+
+
+
+THE ONLY TESTED WORKING VERSION I USED WAS 1.12.2, IT MAY OR MAY NOT WORK ON NEWER VERSIONS DUE TO OPENGL3 DEPENDENCY
+
+
+notes:
+
+1.) LWJGL was easy, MultiMC, on the other hand, not so much. Thats one reason why i tested with Mineshafter the majority of the time. MultiMC doesnt seem to like standard pointing calls to specific libraries and instead ignores them for its own.
+
+2.) I dont condone piracy at all, but unfortunately the only way ive figured out how to get it working is to use Mineshafter, you may be able to get a official client running but so far i havent because of the library hack.
+
+
